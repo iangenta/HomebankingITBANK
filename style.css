@@ -4,18 +4,17 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    
 }
 
-html{ 
-    background-color: #2f86b8;
-}
+
 body{
-    background-color: #ffffff;
-    
+    background-color: rgb(243, 234, 234);
+
 }
 /*HEADER Y NAV*/
 .header{
-    background-color: #ffffff;
+    background-color:none;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,9 +107,12 @@ main{
 
 .login-register form{
     width: 100%;
-    padding: 80px 20px;
+    padding: 80px 20px 30px;
     background-color: white;
     border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -133,7 +135,7 @@ main{
 
 }
 .login-register form button{
-    padding: 10px 40px;
+    padding: 10px 80px;
     margin-top: 40px;
     border: none;
     border-radius: 40px;
@@ -152,7 +154,6 @@ main{
     width: 100%;
     max-width: 380px;
     margin: auto;
-    display: inline-block;
     justify-content: center;
     color: #ffffff;
     backdrop-filter: blur(10px);
@@ -164,6 +165,10 @@ main{
 .content-register{
     padding: 0px 10px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .content-register h3{
     text-align: center;
@@ -177,7 +182,7 @@ main{
     color:#ffffff;
 }
 .register button{
-    padding: 10px 40px;
+    padding: 10px 80px;
     margin-top: 40px;
     border: none;
     border-radius: 40px;
@@ -190,12 +195,6 @@ main{
 }
 
 /*Cambiar el fondo de header y body*/
-body, header {
-    background-image: url(../HomebankingITBANK/images/triangles-background.jpeg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: repeat;
-}
 main .content-register
 button:hover{
     cursor: pointer;
