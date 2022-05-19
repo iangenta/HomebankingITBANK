@@ -158,8 +158,20 @@ main {
   color: #ffffff;
   cursor: pointer;
   outline: none;
+  
 
   transition-duration: 0.25s;
+}
+
+.form-check input {
+  cursor: pointer;
+  
+}
+.form-check label {
+  font-size: 18px;
+  text-align: center;
+  color:#000000;
+  margin-left: 70px;
 }
 
 /*Registro */
