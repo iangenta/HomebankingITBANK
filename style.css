@@ -163,17 +163,6 @@ main {
   transition-duration: 0.25s;
 }
 
-.form-check input {
-  cursor: pointer;
-  
-}
-.form-check label {
-  font-size: 18px;
-  text-align: center;
-  color:#000000;
-  margin-left: 70px;
-}
-
 /*Registro */
 .register {
   position: relative;
@@ -215,6 +204,28 @@ main {
   transition-duration: 0.25s;
 }
 
+.login-register form .form-check{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.login-register form .form-check input {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.login-register form .form-check label {
+  width: auto;
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color:#000000;
+}
+
 /*Cambiar el fondo de header y body*/
 .register button:hover {
   cursor: pointer;
@@ -246,6 +257,9 @@ main .login-register form button:hover {
   }
 }
 @media screen and (max-width: 730px) {
+  body{
+    height: 100%;
+  }
   .header {
     padding: 40px 20px;
   }
@@ -258,25 +272,31 @@ main .login-register form button:hover {
   .container {
     flex-direction: column;
     width: 90%;
-    height: 500px;
+    height: auto;
+    margin: 20px auto;
   }
   main {
     display: flex;
     flex-direction: column;
     margin: 0px;
     width: 100%;
-    height: 500px;
+    height: auto;
   }
   .register {
     display: flex;
     width: 100%;
-    height: 220px;
+    padding: 40px 0;
+  }
+  .register h3{
+    margin-bottom: 40px;
+  }
+  .register p{
+    margin-bottom: 20px;
   }
   .login-register {
-    margin-top: 30px;
+    margin: 30px 0;
     display: flex;
     width: 100%;
-    height: 220px;
   }
   .header .nav-links li{
     padding: 0 10px;
@@ -287,5 +307,9 @@ main .login-register form button:hover {
   .profile span {
     width: 50px;
     height: 50px;
+  }
+  
+  .login-register form .form-check{
+    margin: 20px 0;
   }
 }
