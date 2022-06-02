@@ -2,12 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 body {
   background-color: #ffffff;
-  background-image: url("./images/triangles-background.jpeg");
+  background-image: url('./images/triangles-background.jpeg');
   background-size: cover;
 }
 main {
@@ -21,7 +21,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
   height: 85px;
   margin-top: 20px;
   padding: 40px;
@@ -32,22 +31,17 @@ main {
   cursor: pointer;
   flex-shrink: 2;
   flex-grow: 1;
-  max-width: 20%;
+  max-width: 15%;
 }
 
 .header .logo img {
   width: 100%;
-  transition: all 0.3s;
 }
 
-.header .logo img:hover {
-  transform: scale(1.2);
-}
-
-.header nav{
+.header nav {
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
 }
 
 .header .nav-links {
@@ -71,7 +65,7 @@ main {
 }
 
 .header .nav-links li a:hover {
-  transform: scale(1.2);
+  transform: scale(1.06);
   color: #2f86b8;
   font-weight: 700;
 }
@@ -85,8 +79,8 @@ main {
   background-color: #ff802c;
   position: relative;
   display: inline-block;
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   padding: 3px;
 }
@@ -96,10 +90,6 @@ main {
   border: none;
   border-radius: 100%;
   cursor: pointer;
-}
-
-.header .profile:hover {
-  transform: scale(1.1);
 }
 
 /*Contenedor de los bloques de formulario y presentacion*/
@@ -155,10 +145,10 @@ main {
   border-radius: 40px;
   font-size: 14px;
   background-color: #2f86b8;
+  border: 1px solid transparent;
   color: #ffffff;
   cursor: pointer;
   outline: none;
-  
 
   transition-duration: 0.25s;
 }
@@ -204,7 +194,7 @@ main {
   transition-duration: 0.25s;
 }
 
-.login-register form .form-check{
+.login-register form .form-check {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -223,7 +213,7 @@ main {
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  color:#000000;
+  color: #000000;
 }
 
 /*Cambiar el fondo de header y body*/
@@ -257,7 +247,7 @@ main .login-register form button:hover {
   }
 }
 @media screen and (max-width: 730px) {
-  body{
+  body {
     height: 100%;
   }
   .header {
@@ -287,10 +277,10 @@ main .login-register form button:hover {
     width: 100%;
     padding: 40px 0;
   }
-  .register h3{
+  .register h3 {
     margin-bottom: 40px;
   }
-  .register p{
+  .register p {
     margin-bottom: 20px;
   }
   .login-register {
@@ -298,18 +288,18 @@ main .login-register form button:hover {
     display: flex;
     width: 100%;
   }
-  .header .nav-links li{
+  .header .nav-links li {
     padding: 0 10px;
   }
-  .header .nav-links li a{
+  .header .nav-links li a {
     font-size: 16px;
   }
   .profile span {
     width: 50px;
     height: 50px;
   }
-  
-  .login-register form .form-check{
+
+  .login-register form .form-check {
     margin: 20px 0;
   }
 }
