@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!--NAV -->
+<header class="header">
+    <div class="logo">
+        <img src="https://raw.githubusercontent.com/iangenta/HomebankingITBANK/main/images/unknown.png"alt="Logo de la marca">
+    </div>
+<!-- <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pagos</a></li>
+            <li><a href="#">Servicios</a></li>
+        </ul>            
+    </nav>-->
+
+
+<!--    
+    <div class="profile">
+        <span>
+            <img src="https://itp.live/cloud/2021/12/14/SH2a0coo-nftmonkey_2.png" alt="">
+        </span>
+    </div>
+-->
+</header>
+
+
+<div class="info">
+    <h3>Solicitar reportes para impuestos</h3>
+    <a href="#"><button class="btn22">Volver atrás</button></a>
+
+
+
+</div>
+
+
+<div class="container-form">
+    <main>
+
+        <div class="date">
+        <div class="date2">
+            <h2>¿Desde que fecha?</h2>
+            <input type="month"  >
+        </div>
+    
+        <div class="date2">
+            <h2>Hasta que fecha?</h2>
+            <input type="month" > 
+        </div>
+        </div>
+    
+    
+        <div class="wrap">
+            <form action="" class="form">
+                <div class="radio">
+    
+                    <h2>¿En que formato te gustaría descargarlo?</h2>
+                    <input type="radio" name="formato" id="pdf">
+                    <label for="pdf">PDF(Formato Compactible)</label>
+                    <input type="radio" name="formato" id="xls">
+                    <label for="xls">XLS(Hoja de calculo)</label>
+    
+                </div>
+    
+    
+                <div class="checkbox-1">
+                    <h2>¿Que saldos totales te gustaria incluir?</h2>
+                    <input type="checkbox" name="blc" id="inv">
+                    <label for="inv">Inversiones</label>
+    
+                    <input type="checkbox" name="blc" id="account">
+                    <label for="account">Cuentas</label>
+    
+                </div>
+    
+                <div class="checkbox-1">
+                    <h2>¿Que movimientos te gustaria incluir?</h2>
+                    <input type="checkbox" name="mov" id="inv-2">
+                    <label for="inv-2">Inversiones</label>
+    
+                    <input type="checkbox" name="mov" id="account-2">
+                    <label for="account-2">Cuentas</label>
+    
+                    <input type="checkbox" name="mov" id="pay-cc">
+                    <label for="pay-cc">Pagos de tarjetas de credito</label>
+    
+                    <input type="checkbox" name="mov" id="ex">
+                    <label for="ex">Operaciones en moneda extranjera</label>
+    
+                </div>
+            
+        </form>
+    </div>
+    <div class="btn">
+        <a href="resumen1.html"><button id="confirm">Confirmar</button></a>
+        <label for="confirm"></label>
+    </div>
+    
+    
+    
+    
+    </main>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

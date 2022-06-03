@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+body{
+    background-color: #D9E0E8;
+}
+.container-form{
+    margin-left: auto;
+    margin-right:auto ;
+    background-color: #D9E0E8;
+    border-radius: 5px;
+}
+
+.header{
+    background-color: #ffffff;
+}
+.info{
+    display: flex;
+    align-items: center;
+    background-color: #2F86B8;
+
+}
+h3{
+    color: #fff;
+    padding: 14px;
+    display: inline-block;
+}
+a{
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    background-color: none;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    margin-top: 30px;
+    margin-top: 0;
+    padding: 40px;
+    padding-left: 530px;
+    border-bottom: 3px solid #2F86B8;
+}
+
+.header .logo {
+    cursor: pointer;
+    flex-grow: 1;
+
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+
+
+.profile {
+    margin-left: 300px;
+}
+.profile span img {
+    width: 65px;
+    height: 60px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .profile:hover {
+    transform: scale(1.1);
+}
+
+.date{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0 20px;
+    padding: 20px;
+}
+.date2{
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.wrap{
+    width:90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.date input[type="month"]{
+
+    position: relative;
+    width: 300px;
+    height: 20px;
+    padding: 20px;
+    border: 0;
+    background: none;
+    border-radius: 10px;
+    outline: none;
+    font-size:14px ;
+}
+
+.date h2,.form h2{
+    font-size: 1em;
+    color: 2F86B8;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.form > div {
+    padding: 20px 0;
+    border-bottom: 1px solid #2F86B8;
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"]
+{
+    display: none;
+}
+
+.form .radio label,
+.form .checkbox-1 label{
+    color: #2F86B8;
+    padding: 5px 15px 5px 51px;
+    display:inline-block;
+    position: relative;
+    font-size:1em;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition:all 0.3s ease ;
+    -o-transition:all 0.3s ease ;
+    transition:all 0.3s ease ;
+}
+
+.form .radio label:hover,
+.form .checkbox-1 label:hover{
+    background: #44b3f379;
+
+}
+
+.form .radio label:before,
+.form .checkbox-1 label:before{
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background: none;
+    border: 3px solid #2F86B8;
+    border-radius: 50%;
+    position: absolute;
+    left: 17px;
+    top: 4px;
+}
+
+.form .checkbox-1 label:before{
+    border-radius: 4px;
+}
+.form input[type="radio"]:checked + label,
+.form input[type="checkbox"]:checked + label{
+    padding: 5px 15px;
+    background-color: #2F86B8;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.form input[type="radio"]:checked + label:before,
+.form input[type="checkbox"]:checked + label:before{
+    display: none;
+}
+
+button{
+    margin: 40px;
+    padding: 10px 80px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #2F86B8;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+
+}
+button:hover{
+    color: #2F86B8;
+    background-color: #ffffff;
+    -webkit-transition:all 0.3s ease ;
+    -o-transition:all 0.3s ease ;
+    transition:all 0.3s ease ;
+    transform: scale(1.1);
+}
+.btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.goback{
+    margin: 10px;
+    padding: 3px ;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    font-size: 14px;
+    background-color: #2F86B8;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+.btn22{
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 800px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+a:hover{
+    color: #2F86B8;
+}
+#confirm:hover{
+    color: #2F86B8;
+}
+
+.fc{
+    background-color: #D9E0E8;
+
+    margin: auto;
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    
+}
+.fc h2, .fc p,.fc input{
+    padding: 10px;
+}
+
+.fcexample{
+    margin: auto;
+    width: 900px;
+    max-width: 1000px;
+}
+
+#confirmp{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 58px;
+
+    margin:  auto;
+    font-size: 24px;
+    background-color: #2F86B8;
+    justify-content: center;
+}
+
+.fcexample h2{
+    margin: auto;
+    padding: 15px;
+
+}
+
+.email{
+    height: 26px;
+    width: 289px;
+}
+
