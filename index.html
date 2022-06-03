@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>ITBANK - Homebanking</title>
+  </head>
+  <body>
+    <!--NAV -->
+    <header class="header">
+      <div class="logo">
+        <img src="./images/logo.png" alt="Logo de la marca" />
+      </div>
+      <div>
+        <div class="profile">
+          <span>
+            <img
+              src="https://t3.ftcdn.net/jpg/02/36/48/86/360_F_236488644_opXVvD367vGJTM2I7xTlsHB58DVbmtxR.jpg"
+              alt="Profile image"
+            />
+          </span>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li>Cuentas</li>
+        <li>Tarjetas</li>
+        <li>Transferencias</li>
+        <li>Pagos</li>
+        <li>Resumen</li>
+        <li>Reclamos</li>
+      </ul>
+    </nav>
+    <!--Contenido principal de la pestaña -->
+    <main>
+      <!--Lateral register -->
+      <div class="container">
+        <div class="register">
+          <h3>¿Aún no sos parte de ITBANK?</h3>
+          <p>
+            Sé parte del banco de Innovación mas importante de LATAM y conseguí
+            beneficios exclusivos!
+          </p>
+          <button>Registrate</button>
+        </div>
+        <!--Formulario Login -->
+        <div class="login-register">
+          <form action="" class="form-login">
+            <h2>Ingresa tus datos para operar</h2>
+            <input type="number" placeholder="DNI" required />
+            <input type="text" placeholder="Usuario" required />
+            <input type="password" placeholder="Contraseña" required />
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Recordar mi número de documento</label
+              >
+            </div>
+            <button>Ingresar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
