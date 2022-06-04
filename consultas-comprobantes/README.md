@@ -1,0 +1,1 @@
+Se creo la pagina de descarga de comprobantes, la idea es brindar acceso al clienta a los pagos realizados y asi mismo facilitar una descarga rapida del comprobante solicitado
