@@ -1,0 +1,55 @@
+.main-reclamos {
+  width: 60%;
+  margin: auto;
+}
+h2 {
+  font-size: xx-large;
+  padding: 30px 40px 16px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+  padding: 16px 40px;
+}
+form p {
+  margin-bottom: 8px;
+}
+.cuil {
+  display: flex;
+}
+.cuil input {
+  width: 80px;
+}
+
+form #largeNumber {
+  flex-grow: 1;
+  margin: 0 1rem;
+}
+#nReclamo {
+  width: 100%;
+}
+
+input {
+  font-size: larger;
+  padding: 8px;
+}
+
+input:focus {
+  outline: none;
+}
+
+form #submit {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #2f86b8;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+form .boxButton {
+  text-align: end;
+}
