@@ -50,6 +50,10 @@ nav ul li {
 nav ul li:hover {
   background-color: rgb(35, 153, 221);
 }
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
 .profile {
   margin-left: 40px;
   flex-shrink: 1;
