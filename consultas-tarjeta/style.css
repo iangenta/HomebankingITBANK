@@ -1,0 +1,197 @@
+.cliente{
+  position: relative;
+  background-color: #E0F3FF;
+  width: 100vw;
+
+  display: flex;
+
+  padding: 0 40px;
+  margin-bottom: 100px;
+}
+.cliente__info{
+  flex-basis: 50%;
+
+  padding: 40px 0;
+}
+.cliente__tarjeta{
+  flex-basis: 50%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 30px 0;
+}
+
+.cliente__titulo{
+  font-size: 44px;
+  font-weight: 300;
+
+  margin-bottom: 40px;
+}
+.cliente__titulo span{
+  font-weight: 700;
+}
+
+.saldo span{
+  color: rgb(78, 78, 78);
+  font-weight: 200;
+}
+
+.saldo__dinero{
+  display: flex;
+
+  margin-top: 5px;
+
+  font-size: 44px;
+  font-weight: 700;
+}
+.saldo__dinero span{
+  font-size: 18px;
+
+  margin-left: 5px;
+}
+
+.tarjeta{
+  position: relative;
+  background-color: #1B4D87;
+  width: 60%;
+  height: 220px;
+
+  color: #FFFFFF;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  border-radius: 10px;
+}
+.tarjeta__borbujas{
+  position: absolute;
+
+  background-color: hsla(0, 0%, 100%, 0.2);
+  width: 50px;
+  height: 50px;
+
+  border-radius: 100%;
+}
+.tarjeta__borbujas__1{
+  width: 150px;
+  height: 150px;
+
+  top: -25px;
+  right: -25px;
+}
+.tarjeta__borbujas__2{
+  width: 80px;
+  height: 80px;
+
+  top: 50px;
+  right: 100px;
+}
+.tarjeta__borbujas__3{
+  width: 120px;
+  height: 120px;
+
+  bottom: -25px;
+  left: -25px;
+}
+.tarjeta__titulo{
+  font-size: 32px;
+}
+.tarjeta__info{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tarjeta__info p{
+  font-size: 20px;
+}
+.tarjeta__info span{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.resumen{
+  text-align: center;
+}
+.resumen h2{
+  color: rgb(78, 78, 78);
+  font-size: 16px;
+  font-weight: 200;
+
+  margin: 10px 0;
+}
+
+.mostrador{
+  background-color: #E0F3FF;
+}
+
+.transaccion{
+  background-color: #9acfee;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 40px;
+
+  transition-duration: 0.3s;
+}
+
+.transaccion__info{
+  text-align: left;
+}
+.transaccion__info h3{
+  font-size: 20px;
+}
+.transaccion__info span{
+  font-size: 14px;
+}
+.transaccion:hover{
+  background-color: #469bcd;
+}
+.transaccion:hover .transaccion__info{
+  color: #FFFFFF;
+}
+
+.transaccion__dinero{
+  font-size: 20px;
+
+  padding: 5px 20px;
+
+  border-radius: 10px;
+}
+.transaccion__dinero--red{
+  background-color: #fe2d2d;
+  color: #FFFFFF;
+}
+.transaccion__dinero--green{
+  background-color: #1ef31e;
+}
+
+.mostrar{
+  background-color: transparent;
+
+  width: 100vw;
+  height: auto;
+
+  border: none;
+  outline: none;
+
+  transition-duration: 0.5s;
+}
+.mostrar:hover{
+  background-color: #3689B9;
+}
+.mostrar img{
+  width: 20px;
+  height: 20px;
+  
+  transition-duration: 0.5s;
+}
+.mostrar:hover img{
+  transform: scale(1.2);
+}
+
