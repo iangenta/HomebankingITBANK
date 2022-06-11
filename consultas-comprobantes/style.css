@@ -34,21 +34,27 @@ nav {
   background-color: #2f86b8;
 }
 nav ul {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 nav ul li {
+  width: 100%;
   list-style: none;
+  text-align: center;
   color: white;
-  padding: 20px 60px;
   cursor: pointer;
   transition: background 1s ease;
 }
 nav ul li:hover {
   background-color: rgb(35, 153, 221);
+}
+nav ul a {
+  display: block;
+  padding: 20px 0;
+  color: white;
+  text-decoration: none;
 }
 .profile {
   margin-left: 40px;
