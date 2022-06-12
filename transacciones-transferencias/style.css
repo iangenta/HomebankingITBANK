@@ -1,0 +1,35 @@
+main{
+    background-color: #c9e7fa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.transferencias{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2f86b8;
+    text-align: center;
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.monto{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2f86b8;
+    text-align: center;
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.texto{
+    text-align: left;
+    display: inline;
+}
+h2{
+    background-color: #2377a8;
+    color: #ffffff;
+    border-radius: 20px;
+}
+input{
+    margin-bottom: 20px;
+}
