@@ -86,8 +86,7 @@ h2 {
 }
 
 .container {
-  background-color: #2f86b8;
-  margin: 50px 200px;
+  background-color: #2f86b8; 
   border-radius: 20px;
 }
 .container h3 {
