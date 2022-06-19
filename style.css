@@ -45,11 +45,8 @@ nav ul li {
   text-align: center;
   color: white;
   cursor: pointer;
-  transition: background 1s ease;
 }
-nav ul li:hover {
-  background-color: rgb(35, 153, 221);
-}
+
 nav ul a {
   display: block;
   padding: 20px 0;
@@ -287,4 +284,27 @@ main .login-register form button:hover {
   .login-register form .form-check {
     margin: 20px 0;
   }
+}
+
+
+nav{
+  background-color: #2F86B8;
+  
+}
+nav a {
+  color: #fff;
+}
+.navbar-toggler{
+  border:  2px solid #fff;
+  
+} 
+button{
+  background-color: #fff;
+}
+
+span div{
+width: 20px;
+height: 2px;
+background-color: #fff;
+margin: 5px;
 }

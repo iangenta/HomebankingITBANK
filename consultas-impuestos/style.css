@@ -10,6 +10,27 @@
 body{
     background-color: #D9E0E8;
 }
+nav{
+    background-color: #2F86B8;
+    
+}
+nav a {
+    color: #fff;
+}
+.navbar-toggler{
+    border:  2px solid #fff;
+    
+} 
+button{
+    background-color: #fff;
+}
+
+span div{
+width: 20px;
+height: 2px;
+background-color: #fff;
+margin: 5px;
+}
 .container-form{
     margin-left: auto;
     margin-right:auto ;
@@ -38,27 +59,24 @@ a{
 }
 
 .header {
+    position: relative;
     background-color: none;
     display: flex;
     align-items: center;
-    height: 85px;
-    margin-top: 30px;
-    margin-top: 0;
+    justify-content: space-between;
+    height: 75px;
     padding: 40px;
-    padding-left: 530px;
-    border-bottom: 3px solid #2F86B8;
 }
-
 .header .logo {
+    position: relative;
     cursor: pointer;
+    flex-shrink: 2;
     flex-grow: 1;
-
+    max-width: 15%;
 }
 
 .header .logo img {
-    height: 70px;
-    width: auto;
-    transition: all 0.3s;
+    width: 100%;
 }
 
 
@@ -75,9 +93,7 @@ a{
     transition: all 0.3s ease 0s;
 }
 
-.header .profile:hover {
-    transform: scale(1.1);
-}
+
 
 .date{
     display: flex;
@@ -114,10 +130,10 @@ a{
 
 .date h2,.form h2{
     font-size: 1em;
-    color: 2F86B8;
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
 .form > div {
     padding: 20px 0;
     border-bottom: 1px solid #2F86B8;
@@ -204,29 +220,9 @@ button:hover{
     align-items: center;
     flex-direction: column;
 }
-.goback{
-    margin: 10px;
-    padding: 3px ;
-    border: 1px solid transparent;
-    border-radius: 40px;
-    font-size: 14px;
-    background-color: #2F86B8;
-    color: #ffffff;
-    cursor: pointer;
-    outline: none;
-}
-.btn22{
-    padding: 10px;
-    border-radius: 3px;
-    margin-left: 800px;
-    margin-top: 0%;
-    margin-bottom: 0%;
 
-}
 
-a:hover{
-    color: #2F86B8;
-}
+
 #confirm:hover{
     color: #2F86B8;
 }

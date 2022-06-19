@@ -6,79 +6,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pago de servicios</title>
+        <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
 
 </head>
+
+
 <body>
-    
-    <header class="header">
-        <div class="logo">
-            <img src="https://cdn.discordapp.com/attachments/975513896616075347/975894494144757760/unknown.png" alt="logo del banco">
-        </div>
-        <div class="container">
-            <h1>Pagos de servicios</h1>
-        </div>
+    <body>
+  <!--NAV -->
+  <header class="header">
+    <div class="logo">
+      <img src="../images/logo.png" alt="Logo de la marca" />
     </div>
-    <div class="box">
-        <p class="text">
-            Pagar con QR
-        </p>
+    <div>
+      <div class="profile">
+        <span>
+        <img
+            src="https://t3.ftcdn.net/jpg/02/36/48/86/360_F_236488644_opXVvD367vGJTM2I7xTlsHB58DVbmtxR.jpg"
+            alt="Profile image"
+          />
+        </span>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg ">
+    <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" srcset=""></a>
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    >
+    <span class="navbar-toggler-icon">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </span>
+    </button>
 
-        <div class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="7em" height="2em" fill="currentColor" class="bi bi-qr-code-scan" viewBox="0 0 16 16">
-                <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0v-3Zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5ZM.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5Zm15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5ZM4 4h1v1H4V4Z"/>
-                <path d="M7 2H2v5h5V2ZM3 3h3v3H3V3Zm2 8H4v1h1v-1Z"/>
-                <path d="M7 9H2v5h5V9Zm-4 1h3v3H3v-3Zm8-6h1v1h-1V4Z"/>
-                <path d="M9 2h5v5H9V2Zm1 1v3h3V3h-3ZM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8H8Zm2 2H9V9h1v1Zm4 2h-1v1h-2v1h3v-2Zm-4 2v-1H8v1h2Z"/>
-                <path d="M12 9h2V8h-2v1Z"/>
-              </svg>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+        <a class="nav-link" href="#"
+        >Transacciones <span class="sr-only">(current)</span></a
+        >
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Mis Movimientos</a>
+            </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Pago de servicios</a>
+            </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Tarjetas</a>
+        </li>
+        <li class="nav-item dropdown">
+        <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+        >
+            Consultas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Comprobantes</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Resumen Impositivo</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Reclamos</a>
+            <div class="dropdown-divider"></div>
         </div>
-       
-    </div> 
-   
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Cotizaciones</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Control de Gastos</a>
+            </li>
+            
+    </ul>
     
-    <div class="box-2">
-        <p class="text">
-            Nuevo Pago
-        </p>
-        <div class="icon-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="7em" height="2em" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
-                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
-                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
-              </svg>
-        </div>
     </div>
-    <div class="box-3">
-        <p class="text">
-            Nueva recarga
-        </p>
-        <div class="icon_3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="7em" height="2em" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
-                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-              </svg>
+</nav>
 
-        </div>
-    </div>
-    <div class="box-4">
-        <p class="text">
-            Transferencias
-        </p>
-        <di class="icon-4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="7em" height="2em" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z"/>
-              </svg>
-        </di>
-    </div>
-
-    <div class="container_2">
-        <h1>Vencimientos</h1>
-    </div>
-    <div class="container_3">
-        <h1>Ultimos pagos con QR</h1>
-    </div>
-
-    
-   
-    
-</header>
+</body>
+</html>

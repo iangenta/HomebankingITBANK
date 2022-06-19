@@ -1,3 +1,28 @@
+nav{
+  background-color: #2F86B8;
+  
+}
+nav a {
+  color: #fff;
+}
+.navbar-toggler{
+  border:  2px solid #fff;
+  
+} 
+button{
+  background-color: #fff;
+}
+
+span div{
+width: 20px;
+height: 2px;
+background-color: #fff;
+margin: 5px;
+}
+
+
+
+
 .main-reclamos {
   width: 60%;
   margin: auto;

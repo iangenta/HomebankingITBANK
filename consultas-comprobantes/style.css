@@ -118,3 +118,25 @@ h2 {
   height: 20px;
   width: 20px;
 }
+
+nav{
+  background-color: #2F86B8;
+  
+}
+nav a {
+  color: #fff;
+}
+.navbar-toggler{
+  border:  2px solid #fff;
+  
+} 
+button{
+  background-color: #fff;
+}
+
+span div{
+width: 20px;
+height: 2px;
+background-color: #fff;
+margin: 5px;
+}

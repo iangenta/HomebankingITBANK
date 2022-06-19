@@ -45,17 +45,37 @@ nav ul li {
   text-align: center;
   color: white;
   cursor: pointer;
-  transition: background 1s ease;
 }
-nav ul li:hover {
-  background-color: rgb(35, 153, 221);
-}
+
 nav ul a {
   display: block;
   padding: 20px 0;
   color: white;
   text-decoration: none;
 }
+
+nav{
+  background-color: #2F86B8;
+  
+}
+nav a {
+  color: #fff;
+}
+.navbar-toggler{
+  border:  2px solid #fff;
+  
+} 
+button{
+  background-color: #fff;
+}
+
+span div{
+width: 20px;
+height: 2px;
+background-color: #fff;
+margin: 5px;
+}
+
 .profile {
   margin-left: 40px;
   flex-shrink: 1;
@@ -79,10 +99,11 @@ nav ul a {
 }
 
 h1{
+  margin: 10px 0;
   text-align: center;
   margin-bottom: 20px;
-  background-color: #4040f2;
-  color: white;
+  
+  color: #2f86b8;
 }
 
 .formulario{
@@ -98,7 +119,7 @@ h1{
 }
 
 .formulario #send{
-  background-color: #d12929;
+  background-color: #2f86b8;
   color:white;
   border:none;
   border-radius: 6px;
