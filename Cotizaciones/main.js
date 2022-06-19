@@ -18,8 +18,8 @@ function tabla(datos) {
         
         <tr>
             <th scope="row">${ valor.casa.nombre }</th>
-            <td>${ valor.casa.compra }</td>
-            <td>${ valor.casa.venta }</td>
+            <td>$ ${ valor.casa.compra }</td>
+            <td>$ ${ valor.casa.venta }</td>
             <td>${ valor.casa.variacion}</td>
         </tr>
         
